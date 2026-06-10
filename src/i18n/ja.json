@@ -1,0 +1,35 @@
+{
+  "titleBar": {
+    "title": "ビデオを変換"
+  },
+  "dropZone": {
+    "hint": "ファイルをドラッグまたは\n開いて変換"
+  },
+  "queue": {
+    "cancel": "キャンセル",
+    "clear": "クリア"
+  },
+  "settings": {
+    "title": "設定",
+    "encoder": "エンコーダ",
+    "quality": "画質",
+    "preserveTimestamp": "元のタイムスタンプを保持",
+    "close": "閉じる"
+  },
+  "preset": {
+    "highQuality": "高品質",
+    "standard": "標準",
+    "smallSize": "小サイズ"
+  },
+  "error": {
+    "unsupportedFormat": "{{ext}}形式は対応していません。",
+    "alreadyHevc": "既にHEVCでエンコードされています。",
+    "conversionFailed": "変換失敗",
+    "conversionNotNeeded": "変換不要",
+    "loadFailed": "読み込み失敗",
+    "cancelled": "キャンセル",
+    "cancelledMessage": "ユーザーによりキャンセルされました。",
+    "ffmpegNotFound": "ffmpegが見つかりません。Homebrewでインストールしてください: brew install ffmpeg",
+    "unknownError": "不明なエラー"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "titleBar": {
+    "title": "Convert Video"
+  },
+  "dropZone": {
+    "hint": "Drag files or\nopen to convert"
+  },
+  "queue": {
+    "cancel": "Cancel",
+    "clear": "Clear"
+  },
+  "settings": {
+    "title": "Settings",
+    "encoder": "Encoder",
+    "quality": "Quality",
+    "preserveTimestamp": "Preserve Original Timestamp",
+    "close": "Close"
+  },
+  "preset": {
+    "highQuality": "High Quality",
+    "standard": "Standard",
+    "smallSize": "Small Size"
+  },
+  "error": {
+    "unsupportedFormat": "{{ext}} format is not supported.",
+    "alreadyHevc": "Already encoded in HEVC.",
+    "conversionFailed": "Conversion Failed",
+    "conversionNotNeeded": "Conversion Not Needed",
+    "loadFailed": "Load Failed",
+    "cancelled": "Cancel",
+    "cancelledMessage": "Cancelled by user.",
+    "ffmpegNotFound": "ffmpeg not found. Install via Homebrew: brew install ffmpeg",
+    "unknownError": "Unknown error"
+  }
+}

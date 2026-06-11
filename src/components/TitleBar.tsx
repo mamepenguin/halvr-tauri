@@ -11,6 +11,7 @@ function MacCloseButton({ onClick }: { readonly onClick: () => void }) {
     <button
       type="button"
       onClick={onClick}
+      onMouseDown={(e) => e.stopPropagation()}
       className="group flex h-3 w-3 items-center justify-center rounded-full bg-[#ff5f57] transition-colors duration-200 hover:bg-[#ff3b30]"
       aria-label="Close"
     >
@@ -36,6 +37,7 @@ function WinCloseButton({ onClick }: { readonly onClick: () => void }) {
     <button
       type="button"
       onClick={onClick}
+      onMouseDown={(e) => e.stopPropagation()}
       className="flex h-8 w-11 items-center justify-center text-neutral-400 transition-colors duration-200 hover:bg-[#e81123] hover:text-white"
       aria-label="Close"
     >
@@ -103,6 +105,7 @@ export function TitleBar({ onSettingsClick }: TitleBarProps) {
         <button
           type="button"
           onClick={onSettingsClick}
+          onMouseDown={(e) => e.stopPropagation()}
           className="flex items-center justify-center rounded p-1 text-neutral-400 transition-colors duration-200 hover:text-white"
           aria-label="Settings"
         >
